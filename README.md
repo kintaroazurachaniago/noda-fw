@@ -4,13 +4,13 @@ This framework was made by kintaro azura chaniago from bencoolen city, indonesia
 # Instalation
 
 ```console
-npm install noda-fw
+$ npm install noda-fw
 ```
 
 or you can do this
 
 ```console
-npm install github:kintaroazurachaniago/noda-fw
+$ npm install github:kintaroazurachaniago/noda-fw
 ```
 
 # Usage
