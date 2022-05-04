@@ -44,4 +44,4 @@ Table exist!            :       Using "users" table
 Working on C:\coding\Space\Tutorial\Nodejs\v1
 ```
 
-Now you can try to visite 127.0.0.1:4120 on your browser app.
+Now you can try to visite http://127.0.0.1:4120 on your browser app.
