@@ -178,7 +178,7 @@ const { DB } = require('noda-fw')
 Example :
 
 ```js
-const User = async => {
+const User = async _ => {
   return await DB.createDatabase('user')
 }
 ```
