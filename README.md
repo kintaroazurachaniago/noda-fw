@@ -1,4 +1,7 @@
-# noda-fw
+# Noda-fw
+  [![NPM Version][npm-version-image]][npm-url]
+  [![NPM Install Size][npm-install-size-image]][npm-install-size-url]
+  [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 This framework was made by kintaro azura chaniago from bencoolen city, indonesia.
 
 # Instalation
