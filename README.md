@@ -126,7 +126,32 @@ and actually we bettere use res.view() insted of res.end(). res.view() will be r
 
 How do we use the data from server in the view file?
 We have two ways to manage and modify the data from the server. they are echo-tag and script-tag
+
 | Echo tag | Script tag |
 | :--------: | :----------: |
 | Echo tag is focused for print the data into the client | Script tag is focused for modify the data by the conditioner |
 | -={ /* data */ }=- | -=[ /* code */ ]=- |
+
+Example :
+
+```html
+<div class="row">
+  -=[
+    const fruits = ['apple', 'mango', 'banana']
+    fuits.forEach( fruit => {
+      echo(`<div class="col-md-4">Fruit name : ${fruit}</div>`)
+    })
+  ]=-
+</div>
+```
+
+or we can type like this
+
+```html
+<div class="row">
+  -=[ const fruits = ['apple', 'mango', 'banana'] ]=-
+  -=[ fruits.forEach( fruit => { ]=-
+  -={ `<div class="col-md-4">Fruit name : ${fruit}</div>` }=-
+  -=[ }) ]=-
+</div>
+```
