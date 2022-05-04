@@ -1,7 +1,7 @@
 # noda-fw
 This framework was made by kintaro azura chaniago from bencoolen city, indonesia.
 
-#Instalation
+# Instalation
 
 ```npm install noda-fw```
 
@@ -9,7 +9,7 @@ or you can do this
 
 ```npm install github:kintaroazurachaniago/noda-fw```
 
-#Usage
+# Usage
 
 Create one index file. here we create new one index file named "index.js" in the root directory of the project
 
