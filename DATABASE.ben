@@ -1,0 +1,6 @@
+DATABASE:KINTARO
+DATABASE=app
+	TABLE=users
+		{}
+		{"name":"asdf","username":"asdf"}
+		{"username":"kintaro"}
