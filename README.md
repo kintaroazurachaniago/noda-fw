@@ -191,3 +191,5 @@ Just becareful when we use update and delete, it will affect to all of selected 
 
 I think it's enough for creating a project in a small scale.
 If you have any question, You can contact me directly on whatsapp [Kintaro azura chaniago](https://wa.me/+6289633948126)
+
+# Thank you very much for your participation :)
