@@ -184,14 +184,14 @@ const User = async _ => {
 ```
 
 Then we can call Model modthods
-- User.create(data)
-- User.read(field)
-- User.update(newData)
-- User.delete()
+- **User.create(data)**
+- **User.read(field)**
+- **User.update(newData)**
+- **User.delete()**
 
 Just becareful when we use update and delete, it will affect to all of selected table data. unless we define the selected data using where()
-- User.where('id', 1).update({ age : 14 })
-- User.where('age', '>', '18').delete()
+- **User.where('id', 1).update({ age : 14 })**
+- **User.where('age', '>', '18').delete()**
 
 > I think it's enough for creating a small scale project in nodejs.
 
