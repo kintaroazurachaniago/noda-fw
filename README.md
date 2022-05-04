@@ -155,3 +155,36 @@ or we can type like this
   -=[ }) ]=-
 </div>
 ```
+
+### Model
+
+Noda-fw comes with local-db manager.
+Local-db file stored in node_modules/noda-fw/DATABASE.ben directory.
+We can modify the file content using Model object.
+Model object has some method such as create(), read(), update(), delete() as CRUD. and where() as well as selector
+Model object will given when we call DB.createDatabase() method.
+Noda-fw has DB class, so just require the module
+
+```js
+const { DB } = require('noda-fw')
+```
+
+> Anyway, Both of DB class and Model class should be used in synchronous programming
+
+Example :
+
+```js
+const User = async => {
+  return await DB.createDatabase('user')
+}
+```
+
+Then we can call Model modthods
+- User.create(data)
+- User.read(field)
+- User.update(newData)
+- User.delete()
+
+Just becareful when we use update and delete, it will affect to all of selected table data. unless we define the selected data using where()
+- User.where('id', 1).update({ age : 14 })
+- User.where('age', '>', '18').delete()
