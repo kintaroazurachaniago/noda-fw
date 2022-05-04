@@ -1,6 +1,6 @@
 # Noda-fw
   
-This framework was made by kintaro azura chaniago from bencoolen city, indonesia.
+This framework was made by kintaro azura chaniago from **bencoolen city**, **indonesia**.
 
 # Instalation
 
@@ -16,7 +16,7 @@ $ npm install github:kintaroazurachaniago/noda-fw
 
 # Quick Start
 
-Create one index file. here we create new one index file named "index.js" in the root directory of the project
+Create one index file. here we create new one index file named **"index.js"** in the root directory of the project
 
 ```js
 // getting noda-fw from node_modules
@@ -54,7 +54,7 @@ Now you can try to visite http://127.0.0.1:4120 on your browser app.
 
 ### Route
 
-Route object has two method which is get() and post(). both of them need two parameter which is the url as the first one and the callback as the second one. look at here
+Route object has two method which is **get()** and **post()**. both of them need two parameter which is the url as the first one and the callback as the second one. look at here
 
 ```js
 // Get method
@@ -71,7 +71,7 @@ Route.post('/user/save', (req, res) => {
 
 ### Controller
 
-We can store the second parameter of Route.get() and Route.post() method into the other module which is called **Controller**. in this controller we just need to export the callbacks. and we can also use the local-db as well in the controller file
+We can store the second parameter of **Route.get()** and **Route.post()** method into the other module which is called **Controller**. in this controller we just need to export the callbacks. and we can also use the local-db as well in the controller file
 
 ```js
 module.exports = {
@@ -101,7 +101,7 @@ module.exports = {
 }
 ```
 
-and actually we bettere use res.view() insted of res.end(). res.view() will be reading a file and the execute res.end() with the file content which is has been parsed from noda-template-engine and bring the data for the client as well
+and actually we better use **res.view()** insted of **res.end()**. **res.view()** will be reading a file and the execute **res.end()** with the file content which is has been parsed from noda-template-engine and bring the data for the client as well
 
 ```js
   module.exports = {
@@ -128,7 +128,7 @@ and actually we bettere use res.view() insted of res.end(). res.view() will be r
 ### Noda-template-engine
 
 How do we use the data from server in the view file?
-We have two ways to manage and modify the data from the server. they are echo-tag and script-tag
+We have two ways to manage and modify the data from the server. they are **echo-tag** and **script-tag**
 
 | Echo tag | Script tag |
 | :--------: | :----------: |
@@ -163,10 +163,10 @@ or we can type like this
 ### Model
 
 Noda-fw comes with local-db manager.
-Local-db file stored in node_modules/noda-fw/DATABASE.ben directory.
+Local-db file stored in **node_modules/noda-fw/DATABASE.ben directory**.
 We can modify the file content using Model object.
-Model object has some method such as create(), read(), update(), delete() as CRUD. and where() as well as selector
-Model object will given when we call DB.createDatabase() method.
+Model object has some method such as **create()**, **read()**, **update()**, **delete()** as **CRUD**. and **where()** as well as selector
+Model object will given when we call **DB.createDatabase()** method.
 Noda-fw has DB class, so just require the module
 
 ```js
