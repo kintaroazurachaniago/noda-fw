@@ -130,3 +130,4 @@ We have two ways to manage and modify the data from the server. they are echo-ta
 | ---- | -------- | ---------- |
 | Tag | -={ /* data */ }=- | -=[ /* code */ ]=- |
 | Desc | Echo tag is focused for print the data into the client | Script tag is focused for modify the data by the conditioner |
+| Usage | -={ 'hello world' }=- <br/> -={ 1 + 1 === 2 ? 'Correct' : 'Wrong' }=- | -=[ <br/> const fruits = ['apple', 'mango', 'banana'] <br/> fruits.forEach( fruit => { <br/> echo(`Fruit name : ${fruit}`) <br/> })
