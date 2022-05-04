@@ -1,13 +1,17 @@
 {
   "name": "noda-fw",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "description": "This framework was made by kintaro azura chaniago from bencoolen city, indonesia.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Hello, welcome to noda-fw :)\" && echo \"Do you need a cup of coffe?\" && echo \"Ow sorry, wrong question XD\" && exit 1"
   },
   "keywords": [
-    "framework"
+    "framework",
+    "nodejs",
+    "noda-fw",
+    "indonesia",
+    "bengkulu"
   ],
   "author": "kintaro azura chaniago",
   "license": "ISC"
