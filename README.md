@@ -188,3 +188,6 @@ Then we can call Model modthods
 Just becareful when we use update and delete, it will affect to all of selected table data. unless we define the selected data using where()
 - User.where('id', 1).update({ age : 14 })
 - User.where('age', '>', '18').delete()
+
+I think it's enough for creating a project in a small scale.
+If you have any question, You can contact me directly on whatsapp [Kintaro azura chaniago](https://wa.me/+6289633948126)
