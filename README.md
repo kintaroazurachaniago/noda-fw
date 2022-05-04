@@ -195,7 +195,7 @@ Just becareful when we use update and delete, it will affect to all of selected 
 
 > I think it's enough for creating a small scale project in nodejs.
 
-If you have a question, You can contact me directly on :
+If you have a question, Please contact me on :
 - [Whatsapp](https://wa.me/+6289633948126)
 - [Facebook](https://facebook.com/kintaro.azura)
 - [Instagram](https://instagram.com/kintaro_azura)
