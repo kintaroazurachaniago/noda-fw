@@ -189,7 +189,7 @@ Just becareful when we use update and delete, it will affect to all of selected 
 - User.where('id', 1).update({ age : 14 })
 - User.where('age', '>', '18').delete()
 
-> I think it's enough for creating a project in a small scale.
+> I think it's enough for creating a small scale project in nodejs.
 
 If you have any question, You can contact me directly on :
 - [Whatsapp](https://wa.me/+6289633948126)
