@@ -13,7 +13,7 @@ or you can do this
 
 Create one index file. here we create new one index file named "index.js" in the root directory of the project
 
-```
+```js
 // getting noda-fw from node_modules
 const { Start, Route, Controller } = require('noda-fw')
 const { home } = Controller
@@ -33,7 +33,7 @@ and then try to run this file by execute this command
 
 the output in the console should be like this
 
-```
+```js
 Server running on port 4120
 Database exist!         :       Using "app" database
 Table exist!            :       Using "users" table
