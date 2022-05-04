@@ -74,8 +74,10 @@ We can store the second parameter of Route.get() and Route.post() method into th
 ```js
 module.exports = {
 
+  // Controller.home
   home : {
   
+    // Controller.home.index
     index : (req, res) => {
       res.end('Hello world')
     }
@@ -96,3 +98,34 @@ module.exports = {
   
 }
 ```
+
+and actually we bettere use res.view() insted of res.end(). res.view() will be reading a file and the execute res.end() with the file content which is has been parsed from noda-template-engine and bring the data for the client as well
+
+```js
+  module.exports = {
+    home : {
+      index : (req, res) => {
+        /*
+        the first parameter is the file's path
+        we need to prepare the file before read it. the file should be written in the process.cwd() and then setting.paths.view folder.
+        we can change the default views path in the setting.json file by changing the value of setting.paths.view
+        the second parameter is the data which is will be passed to the noda-template-engine. and then we can use the data in the view file
+        */
+        res.view('home.spa', { title : 'Home page', theme : { bg : 'dark', color : 'light' } })
+        /*
+        data.title       = 'Home page'
+        data.theme.bg    = 'dark'
+        data.theme.color = 'light'
+        */
+      }
+    }
+  }
+```
+
+### Noda-template-engine
+
+How do we use the data from server in the view file?
+We have two ways to manage and modify the data from the server. they are echo-tag and script-tag
+| Type | Echo tag | Script tag |
+| Tag | -={ /* data */ }=- | -=[ /* code */ ]=- |
+| Desc | Echo tag is focused for print the data into the client | Script tag is focused for modify the data by the conditioner |
