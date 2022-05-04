@@ -34,7 +34,9 @@ that's all.
 
 and then try to run this file by execute this command
 
-> node index
+```console
+$ node index
+```
 
 the output in the console should be like this
 
