@@ -3,11 +3,15 @@ This framework was made by kintaro azura chaniago from bencoolen city, indonesia
 
 # Instalation
 
-> npm install noda-fw
+```console
+npm install noda-fw
+```
 
 or you can do this
 
-> npm install github:kintaroazurachaniago/noda-fw
+```console
+npm install github:kintaroazurachaniago/noda-fw
+```
 
 # Usage
 
@@ -33,7 +37,7 @@ and then try to run this file by execute this command
 
 the output in the console should be like this
 
-```js
+```console
 Server running on port 4120
 Database exist!         :       Using "app" database
 Table exist!            :       Using "users" table
