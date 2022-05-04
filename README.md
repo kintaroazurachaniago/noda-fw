@@ -51,6 +51,7 @@ Now you can try to visite http://127.0.0.1:4120 on your browser app.
 
 # How to use?
 
+
 ### Route
 
 Route object has two method which is get() and post(). both of them need two parameter which is the url as the first one and the callback as the second one. look at here
@@ -66,6 +67,7 @@ Route.post('/user/save', (req, res) => {
   res.end(JSON.stringify(req.form))
 })
 ```
+
 
 ### Controller
 
@@ -122,6 +124,7 @@ and actually we bettere use res.view() insted of res.end(). res.view() will be r
   }
 ```
 
+
 ### Noda-template-engine
 
 How do we use the data from server in the view file?
@@ -155,6 +158,7 @@ or we can type like this
   -=[ }) ]=-
 </div>
 ```
+
 
 ### Model
 
